@@ -1,0 +1,106 @@
+.about1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.katzekatze {
+    text-align: center;
+}
+
+.homebild {
+    text-align: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.image-container figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+}
+
+.image-container figcaption {
+    margin-top: 5px;
+}
+
+.dasist {
+    text-align: center;
+}
+
+.hintergrund2 {
+    background-color: coral;
+    font-family: "Arial Narrow", serif;
+    color: beige;
+}
+
+.hintergrund1 {
+    background-color: red;
+    font-family: "Times New Roman", serif;
+    color: blanchedalmond;
+}
+
+body {
+    font-family: acumin-pro, system-ui, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    align-items: start;
+    min-height: 100vh;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+    flex: 100;
+}
+
+.footeradresse {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+
+.impressum {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer address {
+    font-style: normal;
+    color: #999;
+}
+
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.impress a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+}
